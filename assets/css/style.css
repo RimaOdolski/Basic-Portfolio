@@ -46,9 +46,9 @@ img{
 
 
 .container{
-    background-color: white;
+    background-color:#ffffff;
     border-bottom: solid;
-    border-color: #777777;
+    border-color: #cccccc;
     
 }
 
@@ -64,5 +64,14 @@ header{
     margin: 0 auto;
     height: 50px;
     
+    
 }
 
+footer{
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
