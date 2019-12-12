@@ -1,14 +1,39 @@
-<!DOCTYPE html>
 <html lang="eng">
 <head>
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-    <header class="header">
-        <h1 class="h">Contact</h1>
-    </header>
-    <div>
+<body>
+        <header>
+            <div class="navBar">
+                <h1 class="name">Rima Odolski</h1>
+                <nav>
+                    <div id="button"> <a id="button" href="index.html">About</a>
+                    <div id="button"> <a id="button" href="portfolio.html">Portfolio</a>
+                    <div id="button"> <a id="button" href="contact.html">Contact</a>                
+                </nav>
+            </div>
+        </header> 
+        <div class="content">
+                <div class="subContent">
+                    <h2 class="h">Contact</h2>
+                    <form class="text" action="form.php">
+                            <label for="name">Name</label>
+                            <input type="text" name="Name" placeholder="Your name..">
+                            <br>
+                            <label for="email">Email</label>
+                            <input type="text" email="Email" placeholder="example@gmail.com">
+                            <br>
+                            <label for="message">Message</label>
+                            <input id="message" type="text" message="Message" placeholder="Type your messsage here">
+                            <br>
+                            <input id="submit" type="Submit" value="Submit">
+                     </form>
+                
+                </div>
+        </div>
+    <!--<div>
         <form class="text" action="form.php">
             <label for="name">Name</label>
             <input type="text" name="Name" placeholder="Your name..">
@@ -22,7 +47,7 @@
 
 
 
-    </div>
+    </div> -->
     <footer>
         <p>copyright &copy;</p>
     </footer>
